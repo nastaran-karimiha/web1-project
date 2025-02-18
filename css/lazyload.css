@@ -1,0 +1,123 @@
+.lazyload {
+  width: 100%;
+  height: 422px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.lazyload-wrapper {
+  width: 90%;
+  height: inherit;
+  margin: 0 auto;
+  border: 1px solid #2b2b2b31;
+  border-radius: 15px;
+  display: flex;
+  flex-flow: row wrap;
+  box-sizing: border-box;
+}
+
+.lazyload-col1,
+.lazyload-col2,
+.lazyload-col3,
+.lazyload-col4 {
+  padding-right: 10px;
+  box-sizing: border-box;
+  width: 24.9%;
+  height: 100%;
+  padding-top: 15px;
+}
+
+.lazyload-header {
+  width: 100%;
+  height: 50px;
+  font-family: var(--font-family);
+  line-height: 25px;
+  margin-bottom: 5px;
+}
+
+.lazyload-header h4 {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.lazyload-header p {
+  font-size: 12px;
+  color: gray;
+}
+
+.lazyload-item-top,
+.lazyload-item-bottom {
+  width: 100%;
+  height: 140px;
+  padding-right: 20px;
+}
+
+.lazyload-item-top img,
+.lazyload-item-bottom img {
+  width: 130px;
+  height: 130px;
+}
+
+.lazyload-img1 {
+  border-left: 1px solid rgba(128, 128, 128, 0.2);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.lazyload-img2 {
+  margin-right: -5px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.lazyload-img3 {
+  border-left: 1px solid rgba(128, 128, 128, 0.2);
+  padding: 10px;
+  box-sizing: border-box;
+  margin-top: -10px;
+}
+
+.lazyload-img4 {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.lazyload-border {
+  margin-top: -40px;
+}
+
+.lazyload-item-bottom {
+  margin-top: -10px;
+}
+
+.lazyload-footer {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lazyload-footer a {
+  padding-left: 2px;
+  font-size: 12px;
+  font-weight: lighter;
+  text-decoration: none;
+
+  text-align: center;
+  font-family: var(--font-family);
+  color: rgb(0, 153, 255);
+}
+
+.lazyload-footer img {
+  filter: brightness(0) saturate(100%) invert(33%) sepia(100%) saturate(1246%) hue-rotate(153deg) brightness(86%) contrast(101%);
+  width: 14px;
+}
+
+.lazyload-col1,
+.lazyload-col2,
+.lazyload-col3 {
+  border-left: 1px solid rgba(128, 128, 128, 0.2);
+}

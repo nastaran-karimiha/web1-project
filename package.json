@@ -1,0 +1,14 @@
+{
+  "name": "project-web1-demo1",
+  "version": "1.0.0",
+  "description": "project demo",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nastaran Karimiha",
+  "license": "ISC",
+  "dependencies": {
+    "swiper": "^11.2.2"
+  }
+}

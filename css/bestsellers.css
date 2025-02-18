@@ -1,0 +1,115 @@
+.bestsellers {
+  width: 100%;
+  height: 404px;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.bestsellers .bestsellers-main {
+  width: 90%;
+  height: inherit;
+  border: 1px solid rgba(128, 128, 128, 0.305);
+  border-radius: 15px;
+
+}
+
+.bestsellers .bestsellers-main .bestsellers-top {
+  width: 100%;
+  height: 50px;
+
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 5px;
+}
+
+.bestsellers .bestsellers-main .bestsellers-top .best-img {
+  filter: brightness(0) saturate(100%) invert(69%) sepia(65%) saturate(1494%) hue-rotate(5deg) brightness(103%) contrast(101%);
+}
+
+.bestsellers .bestsellers-main .bestsellers-top p {
+  font-family: var(--font-family);
+  font-size: 20px;
+}
+
+.bestsellers .bestsellers-main .bestsellers-top a {
+  font-family: var(--font-family);
+  font-size: 15px;
+  color: rgb(4, 165, 205);
+  text-decoration: none;
+  position: absolute;
+  left: 100px;
+}
+
+.bestsellers .bestsellers-main .bestsellers-bottom {
+  width: 100%;
+  height: 330px;
+
+}
+
+.bestsellers .bestsellers-main .bestsellers-bottom .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.bestsellers .bestsellers-main .bestsellers-bottom .swiper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bestsellers .bestsellers-main .bestsellers-bottom .swiper .swiper-slide .swiper-slide-itemb {
+  width: 100%;
+  height: 100%;
+
+}
+
+.bestsellers .bestsellers-main .bestsellers-bottom .swiper .swiper-slide .swiper-slide-itemb .swiper-slide-item-top {
+  width: 100%;
+  height: 33%;
+
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-items: center;
+  column-gap: 6px;
+}
+
+.bestsellers .bestsellers-main .bestsellers-bottom .swiper .swiper-slide .swiper-slide-itemb .swiper-slide-item-top .swiper-slide-item-top-img img {
+  width: 86px;
+  height: 86px;
+}
+
+.bestsellers .bestsellers-main .bestsellers-bottom .swiper .swiper-slide .swiper-slide-itemb .swiper-slide-item-top .swiper-slide-item-top-num h5 {
+  font-family: var(--font-number);
+  font-size: 30px;
+  color: aqua;
+}
+
+.bestsellers .bestsellers-main .bestsellers-bottom .swiper .swiper-slide .swiper-slide-itemb .swiper-slide-item-top .swiper-slide-item-top-text p {
+  font-family: var(--font-family);
+  font-size: 12px;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+}
+
+.bestsellers .bestsellers-main .bestsellers-bottom .swiper .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-slide-itemb{
+  border-left: 1px solid rgba(128, 128, 128, 0.174);
+}

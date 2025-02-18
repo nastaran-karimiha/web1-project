@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  /* ::-webkit-scrollbar {
+    width: 8px;
+    background-color: rgb(231, 231, 231);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    width: 8px;
+    background-color: rgb(184, 184, 184);
+  } */
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  width: 10px;
+
+}
+
+html::-webkit-scrollbar-track,
+body::-webkit-scrollbar-track {
+  background: #f9f9f9;
+
+}
+
+html::-webkit-scrollbar-thumb,
+body::-webkit-scrollbar-thumb {
+  background: #C0C2C5;
+
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.wrapper {
+  width: 100%;
+
+
+}
+
+@font-face {
+  font-family: Yekan;
+  src: url("../fonts/yekan/IRANYekanWeb-Medium.eot");
+  src: url("../fonts/yekan/IRANYekanWeb-Medium.ttf");
+  src: url("../fonts/yekan/IRANYekanWeb-Medium.woff");
+  src: url("../fonts/yekan/IRANYekanWeb-Medium.woff2");
+}
+
+@font-face {
+  font-family: Titr;
+  src: url("../fonts/Farsi-Digits/Tanha-FD.eot ");
+  src: url("../fonts/Farsi-Digits/Tanha-FD.ttf");
+  src: url("../fonts/Farsi-Digits/Tanha-FD.woff ");
+  src: url("../fonts/Farsi-Digits/Tanha-FD.woff2");
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+:root {
+  --font-family: Yekan;
+  --border-radius-medium: 8px;
+  --font-number: Titr;
+}
+
+html, body {
+  direction: rtl;
+}
+
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+  width: 35px;
+  height: 35px;
+  background-color: whitesmoke;
+  border: 1px solid lightgrey;
+  border-radius: 50%;
+}
+
+.swiper-button-next2, .swiper-rtl .swiper-button-prev2 {
+  width: 35px;
+  height: 35px;
+  background-color: whitesmoke;
+  border: 1px solid lightgrey;
+  border-radius: 50%;
+}
+
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+  font-size: 12px;
+  font-weight: bold;
+  color: #2b2b2b;
+}
+
+.swiper-button-next2:after,
+.swiper-rtl .swiper-button-prev2:after {
+  font-size: 12px;
+  font-weight: bold;
+  color: #2b2b2b;
+}
+
+.swiper-button-disabled {
+  opacity: 0 !important;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  width: 5px;
+  height: 5px;
+  background-color: #2b2b2b;
+  transition: 300ms;
+}
+
+.swiper-pagination-bullet-active {
+  width: 20px !important;
+  height: 5px !important;
+  background-color: whitesmoke !important;
+  border-radius: 5px;
+}

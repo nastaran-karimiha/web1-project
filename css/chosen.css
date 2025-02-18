@@ -1,0 +1,155 @@
+.chosen {
+    width: 100%;
+    height: 813px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+
+    .chosen-wrapper {
+        width: 90%;
+        height: inherit;
+        height: inherit;
+        margin: 0 auto;
+        border: 1px solid #2b2b2b31;
+        border-radius: 15px;
+        display: flex;
+        flex-flow: row wrap;
+        box-sizing: border-box;
+
+
+        .chosen-wrapper-head {
+            width: 100%;
+            height: 76.2px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            column-gap: 10px;
+
+            img {
+                filter: brightness(0) saturate(100%) invert(33%) sepia(35%) saturate(5548%) hue-rotate(334deg) brightness(104%) contrast(87%);
+                ;
+            }
+
+            p {
+                font-family: var(--font-family);
+                font-size: 20px;
+            }
+
+        }
+
+        .chosen-wrapper-body {
+            width: 100%;
+            height: 726.5px;
+
+
+            .chosen-wrapper-body-top, .chosen-wrapper-body-center, .chosen-wrapper-body-bottom {
+                width: inherit;
+                height: 33.3%;
+                display: flex;
+                flex-flow: column wrap;
+
+
+                .chosen-item {
+                    display: flex;
+                    flex-flow: row wrap;
+                    box-sizing: border-box;
+                    width: 16.6%;
+                    height: 100%;
+
+
+
+                    .chosen-item-img {
+                        width: 150px;
+                        margin-right: 25px;
+                        margin-top: 10px;
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 3px;
+                    }
+
+                    .chosen-item-price {
+                        width: 100%;
+                        height: 30px;
+                        display: flex;
+                        flex-flow: row-reverse wrap;
+                        justify-content: center;
+                        column-gap: 70px;
+                        padding: 0 10px;
+                        box-sizing: border-box;
+                        padding-top: 10px;
+
+                        .price-pure {
+                            font-family: var(--font-number);
+                            display: flex;
+                            flex-flow: row-reverse wrap;
+                            align-items: center;
+                            font-size: 17px;
+                            color: #2b2b2b;
+
+                            img {
+                                width: 13.71px;
+                                height: 13.71px;
+                            }
+                        }
+
+                        .price-discount {
+                            font-family: var(--font-number);
+                            font-size: 12px;
+                            color: #2b2b2b;
+                            background-color: crimson;
+                            color: whitesmoke;
+                            padding: 0 12px;
+                            box-sizing: border-box;
+                            border-radius: 15px;
+                            display: flex;
+                            align-items: center;
+                            height: 20px;
+                            margin-top: 5px;
+                        }
+                    }
+
+                    .price-origin {
+                        width: 100%;
+                        font-family: var(--font-number);
+                        font-size: 14px;
+                        color: rgb(185, 176, 176);
+                        text-decoration: line-through;
+                        text-align: left;
+                        padding-left: 40px;
+                        padding-right: 10px;
+                        display: flex;
+                        flex-direction: row-reverse;
+
+
+
+                    }
+                }
+            }
+
+            .chosen-wrapper-body-top {
+                border-bottom: 1px solid #2b2b2b31;
+
+                .chosen-item:nth-child(-n+5) {
+                    border-left: 1px solid #2b2b2b31;
+                }
+            }
+
+            .chosen-wrapper-body-center {
+                border-bottom: 1px solid #2b2b2b31;
+
+                .chosen-item:nth-child(-n+5) {
+                    border-left: 1px solid #2b2b2b31;
+                }
+            }
+
+            .chosen-wrapper-body-bottom {
+
+
+                .chosen-item:nth-child(-n+5) {
+                    border-left: 1px solid #2b2b2b31;
+                }
+            }
+        }
+    }
+}
