@@ -88,6 +88,15 @@ html, body {
   direction: rtl;
 }
 
+a:visited {
+  text-decoration: none;
+color: unset;
+}
+
+a {
+  text-decoration: none;
+}
+
 .swiper-button-next, .swiper-rtl .swiper-button-prev {
   width: 35px;
   height: 35px;

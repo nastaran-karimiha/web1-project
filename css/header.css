@@ -242,11 +242,20 @@
     top: 0;
     z-index: 1000;
 
-    img {
+    a {
       width: inherit;
-      height: inherit;
-      object-fit: cover;
+      height: 60px;
+      position: fixed;
+      top: 0;
+      z-index: 1000;
+
+      img {
+        width: inherit;
+        height: inherit;
+        object-fit: cover;
+      }
     }
+
   }
 
   .header-center {
@@ -744,19 +753,19 @@
 
     height: 490px;
     width: 362px;
-    
+
     justify-content: center;
     align-items: center;
     position: absolute;
     z-index: 1002;
     display: none;
-    
+
     flex-flow: column;
     justify-content: center;
     align-items: center;
     width: 384px;
     height: 70vh;
-    
+
     overflow: hidden;
     right: 10px;
     bottom: 40px;
@@ -793,7 +802,7 @@
       .support-banner-content-body {
         width: 97%;
         height: inherit;
-        
+
         overflow-y: auto;
         direction: rtl;
         display: block;
@@ -817,7 +826,7 @@
 
           .support-banner-content-body-question {
 
-           
+
             border: 1px solid gray;
             border-radius: 10px;
             display: flex;
