@@ -49,7 +49,7 @@
       column-gap: 10px;
       position: absolute;
       top: 55px;
-      right: 70px;
+      right: 65px;
 
       .category-top-item {
         width: 140px;
@@ -86,31 +86,30 @@
       column-gap: 10px;
       position: absolute;
       bottom: 55px;
-      right: 70px;
+      right: 65px;
 
       .category-bottom-item {
         width: 140px;
         padding: 10px;
         box-sizing: border-box;
+a{
+  img {
+          width: 102px;
 
-        a {
-          img {
-            width: 102px;
-
-            display: block;
-            margin: 10px auto;
-          }
-
-          p {
-            width: 60%;
-            font-family: var(--font-family);
-            font-size: 14px;
-            font-weight: normal;
-            margin: 0 auto;
-            text-align: center;
-          }
+          display: block;
+          margin: 10px auto;
         }
 
+        p {
+          width: 60%;
+          font-family: var(--font-family);
+          font-size: 14px;
+          font-weight: normal;
+          margin: 0 auto;
+          text-align: center;
+        }
+}
+        
       }
     }
   }

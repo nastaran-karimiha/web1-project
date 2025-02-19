@@ -352,6 +352,16 @@
                         align-items: center;
                         column-gap: 3px;
 
+                        a {
+                            display: flex;
+                            width: 100%;
+                            height: 100%;
+                            border-radius: 5px;
+                            justify-content: center;
+                            align-items: center;
+                            column-gap: 3px;
+                        }
+
                         .bullet-dot {
                             width: 7px;
                             height: 7px;
@@ -524,6 +534,14 @@
                 align-items: center;
                 justify-content: center;
                 border-left: 1px solid lightgray;
+
+                a {
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
             }
 
             .footer-bottom-top-item:last-child, .footer-bottom-bottom-item:last-child, a.footer-bottom-bottom-item {
